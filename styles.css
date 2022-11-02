@@ -52,11 +52,11 @@ a{
     font-size:30px;
     color: var(--purple);
 }
-#project{
+#projects{
     background-color:var(--purple);
     padding-bottom: 50px;
 }
-#project h2 {
+#projects h2 {
     text-align: center;
     font-size: 40px;
     padding-top:60px;
@@ -76,8 +76,8 @@ a{
     padding-bottom:15px;
   }
 .project-screen{
-    width:380px;
-    height:370px;
+    width:280px;
+    height:270px;
     object-fit:cover;
 }
 .project-title{
@@ -116,4 +116,6 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 30px;
+  }
+  @media (max-width:768px){
   }
